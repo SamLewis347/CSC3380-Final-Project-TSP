@@ -1,4 +1,4 @@
-Solution for the first part of the 3380 TSP final project.
+Solution for part one of the 3380 TSP final project.
 
 A path cost calculator: your program will read in an input file of graphs, along with a file
 containing cycles and their costs in the graph, and output whether or not the information in
