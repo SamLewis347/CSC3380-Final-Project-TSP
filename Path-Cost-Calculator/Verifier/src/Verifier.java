@@ -9,8 +9,8 @@ public class Verifier {
         ArrayList<Integer> incorrect = new ArrayList<>();
         try {
             //gets graph and answer file
-            File graphFile = new File("input");
-            File answerFile = new File("answer");
+            File graphFile = new File("graph.txt");
+            File answerFile = new File("results.txt");
             Scanner graphReader = new Scanner(graphFile);
             Scanner answerReader = new Scanner(answerFile);
             int graphs = graphReader.nextInt();
